@@ -1,0 +1,14 @@
+[project]
+name = "crewai-evolution-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crewai>=0.86.0",
+    "crewai-tools>=0.17.0",
+    "evolutionapi>=0.0.6",
+    "flask>=3.1.0",
+    "langchain-openai>=0.2.14",
+    "python-dotenv>=1.0.1",
+]
